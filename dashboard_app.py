@@ -83,7 +83,7 @@ for c, f in zip(cols, features):
     c.metric(f.replace('_', ' ').title(), f'{row[f]:.2f}')
 
 # FastAPI Backend Integration
-api_url = "http://127.0.0.1:8000/predict"
+api_url = "https://sensor-hazard-monitoring.onrender.com/predict"
 payload = {f: float(row[f]) for f in features}
 
 try:
