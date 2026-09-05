@@ -1,0 +1,5 @@
+venv/
+sensor_hazard_backend/venv/
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,15 @@
+Demo accuracy: 0.79
+              precision    recall  f1-score   support
+
+   Corrosion       0.60      0.56      0.58        57
+  Earthquake       1.00      1.00      1.00        74
+     Fatigue       0.50      0.55      0.52        67
+       Flood       0.39      0.34      0.37        58
+      Normal       1.00      1.00      1.00       211
+     Thermal       0.65      0.69      0.67        61
+        Wind       0.81      0.81      0.81        72
+
+    accuracy                           0.79       600
+   macro avg       0.71      0.71      0.71       600
+weighted avg       0.79      0.79      0.79       600
+
